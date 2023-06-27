@@ -159,6 +159,9 @@ span {
   font-size: 4.5rem;
 }
 
+.about-content {
+  margin-left: 3rem;
+}
 .about-content h2 {
   text-align: left;
   line-height: 1.2;
