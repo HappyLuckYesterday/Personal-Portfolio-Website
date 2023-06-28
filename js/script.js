@@ -43,3 +43,4 @@ ScrollReveal({
 });
 
 ScrollReveal().reveal('.home-img, .heading', { origin: 'top' });
+ScrollReveal().reveal('.portfolio-box, .services-container', { origin: 'bottom' });
