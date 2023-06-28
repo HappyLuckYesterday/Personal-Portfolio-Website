@@ -1,3 +1,4 @@
+// Active section manager
 let navLinks = document.querySelectorAll('header nav a');
 let sections = document.querySelectorAll('section');
 
@@ -15,4 +16,13 @@ window.onscroll = () => {
             document.querySelector('header nav a[href*=' + id + ']').classList.add('active');
         }
     });
+};
+
+// toggle icon navbar
+let menuIcon = document.querySelector('#menu-icon');
+let navbar = document.querySelector('.navbar');
+
+menuIcon.onclick = function () {
+    menuIcon.classList.toggle('bx-x');
+    navbar.classList.toggle('active');
 };
