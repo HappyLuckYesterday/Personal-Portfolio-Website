@@ -30,5 +30,16 @@ window.onscroll = () => {
 
   // remove navbar when a nav link is clicked
   menuIcon.classList.remove("bx-x");
-  navbar.classList.remove("active");
+  navbar.classList.remove("show-menu");
 };
+
+
+// scroll reveal 
+ScrollReveal({
+    reset: true,
+    distance: '80px',
+    duration: 2000,
+    delay: 200
+});
+
+ScrollReveal().reveal('.home-img, .heading', { origin: 'top' });
