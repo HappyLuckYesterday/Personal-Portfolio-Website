@@ -6,10 +6,9 @@
     <title>Portfolio | Prince Raj</title>
     <link
       href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
-      rel="stylesheet"
-    />
-
+      rel="stylesheet"/>
     <link rel="stylesheet" href="./css/home.css" />
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
   </head>
   <body>
     <header class="header">
@@ -28,7 +27,7 @@
     <section class="home" id="home">
       <div class="home-content">
         <h3>Hello, It's Me</h3>
-        <h1>Prince Raj</h1>
+        <h1><span id="myName">Prince Raj</span></h1>
         <h3>And I'm a <span>Frontend Developer</span></h3>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
@@ -192,4 +191,10 @@
     </footer>
   </body>
   <script src="./js/script.js"></script>
+  <script>
+    var typed = new Typed('#myName', {
+      strings: ['&looparrowright; Prince Raj'],
+      typeSpeed: 50,
+    });
+  </script>
 </html>
