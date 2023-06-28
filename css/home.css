@@ -77,11 +77,23 @@ section {
 .home-img img {
   filter: invert(50%);
   width: 35vw;
+  animation: floatImage 4s ease-in-out infinite;
   transition: 0.2s;
 }
 .home-img img:hover {
   filter: invert(100%);
   transform: scale(1.03);
+}
+@keyframes floatImage {
+  0% {
+    transform: translateY(0)
+  }
+  50% {
+    transform: translateY(-2.4rem)
+  }
+  100% {
+    transform: translateY(0)
+  }
 }
 
 .home-content h3 {
