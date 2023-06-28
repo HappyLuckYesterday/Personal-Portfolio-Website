@@ -86,13 +86,13 @@ section {
 }
 @keyframes floatImage {
   0% {
-    transform: translateY(0)
+    transform: translateY(0);
   }
   50% {
-    transform: translateY(-2.4rem)
+    transform: translateY(-2.4rem);
   }
   100% {
-    transform: translateY(0)
+    transform: translateY(0);
   }
 }
 
@@ -478,7 +478,7 @@ span {
   }
 
   .contact form .input-box input {
-    width: 100%
+    width: 100%;
   }
 }
 
@@ -505,4 +505,3 @@ span {
 .show-menu {
   display: block;
 }
-
