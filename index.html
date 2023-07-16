@@ -1,203 +1,206 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio | Prince Raj</title>
-    <link
-      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
-      rel="stylesheet"/>
-    <link rel="stylesheet" href="./css/home.css" />
-    <!-- typing animation package requirement -->
-    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
-    <!-- scroll reveal package requirement-->
-    <script src="https://unpkg.com/scrollreveal"></script>
-  </head>
-  <body>
-    <header class="header">
-      <a href="#" class="logo">Portfolio</a>
-      <i class="bx bx-menu" id="menu-icon"></i>
-      <nav class="navbar">
-        <a href="#home" class="active">Home</a>
-        <a href="#about">About</a>
-        <a href="#services">Services</a>
-        <a href="#portfolio">Portfolio</a>
-        <a href="#contact">Contact</a>
-      </nav>
-    </header>
 
-    <!-- Home Section -->
-    <section class="home" id="home">
-      <div class="home-content">
-        <h3>Hello, It's Me</h3>
-        <h1><span id="myName">Prince Raj</span></h1>
-        <h3>And I'm a <span>Frontend Developer</span></h3>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio | Prince Raj</title>
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="./css/home.css" />
+  <!-- typing animation package requirement -->
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+  <!-- scroll reveal package requirement-->
+  <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+
+<body>
+  <header class="header">
+    <a href="#" class="logo">Portfolio</a>
+    <i class="bx bx-menu" id="menu-icon"></i>
+    <nav class="navbar">
+      <a href="#home" class="active">Home</a>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Home Section -->
+  <section class="home" id="home">
+    <div class="home-content">
+      <h3>Hello, It's Me</h3>
+      <h1><span id="myName">Prince Raj</span></h1>
+      <h3>And I'm a <span>Frontend Developer</span></h3>
+      <p>💻 I recently embarked on my coding journey, and I'm passionate about learning
+        and exploring the world of programming. Every day, I'm amazed by the possibilities and the impact that code
+        can have in shaping our world.</p>
+      <div class="social-media">
+        <a href="https://www.instagram.com/the_prince.raj/" target="_blank"><i class="bx bxl-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/prince-raj-613186272/" target="_blank"><i
+            class="bx bxl-linkedin-square"></i></a>
+        <a href="http://discord.gg/simpcity" target="_blank"><i class="bx bxl-discord-alt"></i></a>
+        <a href="https://twitter.com/theprinceraj" target="_blank"><i class="bx bxl-twitter"></i></a>
+      </div>
+      <a href="./static/CV for Prince Raj.pdf" class="btn" download>Download My Resume</a>
+    </div>
+
+    <div class="home-img">
+      <img src="./images/home.png" alt="Home" />
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="about" id="about">
+    <div class="about-img">
+      <img src="./images/about.png" alt="About" />
+    </div>
+    <div class="about-content">
+      <h2 class="heading">About <span>Me</span></h2>
+      <h3>Web Developer</h3>
+      <p>👋 Hello! I'm Prince Raj.</p>
+      <details>
+        <summary>
+          <div class="btn">Read More</div>
+        </summary><br>
+        <p>🎓 Currently in the early stages of my engineering degree, I'm eager to develop
+          a strong foundation in coding and programming. I'm focusing on learning various programming languages and
+          frameworks.</p>
+        <p>🌟 I believe in the power of continuous learning and growth. While I may be a
+          beginner, I'm dedicated to honing my skills and expanding my knowledge through personal projects and online
+          resources. I'm excited about the challenges and opportunities that lie ahead.</p>
+        <p>🚀 I'm open to collaborating with fellow developers, sharing ideas, and being part of the thriving coding
+          community. I'm also looking forward to contributing to open-source projects as I progress in my coding
+          journey.</p>
+        <p>💻 Let's learn and grow together in this exciting world of coding!</p>
+      </details>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section class="services" id="services">
+    <h2 class="heading">Our <span>Services</span></h2>
+
+    <div class="services-container">
+      <div class="services-box">
+        <i class="bx bx-code-alt"></i>
+        <h3>Web Development</h3>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
-          officia, rerum voluptatem repellat praesentium ratione natus commodi.
-        </p>
-        <div class="social-media">
-          <a href="https://www.instagram.com/the_prince.raj/" target="_blank"><i class="bx bxl-instagram"></i></a>
-          <a href="https://www.linkedin.com/in/prince-raj-613186272/" target="_blank"><i class="bx bxl-linkedin-square"></i></a>
-          <a href="http://discord.gg/simpcity" target="_blank"><i class="bx bxl-discord-alt"></i></a>
-          <a href="https://twitter.com/theprinceraj" target="_blank"><i class="bx bxl-twitter"></i></a>
-        </div>
-        <a href="./static/CV for Prince Raj.pdf" class="btn" download>Download My Resume</a>
-      </div>
-
-      <div class="home-img">
-        <img src="./images/home.png" alt="Home" />
-      </div>
-    </section>
-
-    <!-- About Section -->
-    <section class="about" id="about">
-      <div class="about-img">
-        <img src="./images/about.png" alt="About" />
-      </div>
-      <div class="about-content">
-        <h2 class="heading">About <span>Me</span></h2>
-        <h3>Frontend Developer</h3>
-        <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam nemo in
-          ex eaque explicabo nostrum nisi vero repellat commodi, quidem neque
-          accusantium natus quisquam similique reprehenderit consectetur
-          corporis beatae minima doloribus obcaecati? Ullam unde nobis at quidem
-          quisquam facilis aliquam tempore veniam, esse odit ex iste?
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur
+          sunt in accusamus cum, libero quos odio nostrum aliquam quae eius!
         </p>
         <a href="#" class="btn">Read More</a>
       </div>
-    </section>
 
-    <!-- Services Section -->
-    <section class="services" id="services">
-      <h2 class="heading">Our <span>Services</span></h2>
+      <div class="services-box">
+        <i class="bx bx-paint-roll"></i>
+        <h3>Graphic Design</h3>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur
+          sunt in accusamus cum, libero quos odio nostrum aliquam quae eius!
+        </p>
+        <a href="#" class="btn">Read More</a>
+      </div>
 
-      <div class="services-container">
-        <div class="services-box">
-          <i class="bx bx-code-alt"></i>
-          <h3>Web Development</h3>
+      <div class="services-box">
+        <i class="bx bx-line-chart"></i>
+        <h3>Digital Marketing</h3>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur
+          sunt in accusamus cum, libero quos odio nostrum aliquam quae eius!
+        </p>
+        <a href="#" class="btn">Read More</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio Section -->
+  <section class="portfolio" id="portfolio">
+    <h2 class="heading">Latest <span>Projects</span></h2>
+
+    <div class="portfolio-container">
+      <div class="portfolio-box">
+        <img src="./images/portfolio1.jpg" alt="portfolio1" />
+        <div class="portfolio-layer">
+          <h4>Web Design</h4>
           <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur
-            sunt in accusamus cum, libero quos odio nostrum aliquam quae eius!
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum,
+            error.
           </p>
-          <a href="#" class="btn">Read More</a>
+          <a href="#"><i class="bx bx-link-external"></i></a>
         </div>
-
-        <div class="services-box">
-          <i class="bx bx-paint-roll"></i>
-          <h3>Graphic Design</h3>
+      </div>
+      <div class="portfolio-box">
+        <img src="./images/portfolio2.jpg" alt="portfolio1" />
+        <div class="portfolio-layer">
+          <h4>Web Design</h4>
           <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur
-            sunt in accusamus cum, libero quos odio nostrum aliquam quae eius!
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum,
+            error.
           </p>
-          <a href="#" class="btn">Read More</a>
+          <a href="#"><i class="bx bx-link-external"></i></a>
         </div>
-
-        <div class="services-box">
-          <i class="bx bx-line-chart"></i>
-          <h3>Digital Marketing</h3>
+      </div>
+      <div class="portfolio-box">
+        <img src="./images/portfolio3.jpg" alt="portfolio1" />
+        <div class="portfolio-layer">
+          <h4>Web Design</h4>
           <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur
-            sunt in accusamus cum, libero quos odio nostrum aliquam quae eius!
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum,
+            error.
           </p>
-          <a href="#" class="btn">Read More</a>
+          <a href="#"><i class="bx bx-link-external"></i></a>
         </div>
       </div>
-    </section>
-
-    <!-- Portfolio Section -->
-    <section class="portfolio" id="portfolio">
-      <h2 class="heading">Latest <span>Projects</span></h2>
-
-      <div class="portfolio-container">
-        <div class="portfolio-box">
-          <img src="./images/portfolio1.jpg" alt="portfolio1" />
-          <div class="portfolio-layer">
-            <h4>Web Design</h4>
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum,
-              error.
-            </p>
-            <a href="#"><i class="bx bx-link-external"></i></a>
-          </div>
-        </div>
-        <div class="portfolio-box">
-          <img src="./images/portfolio2.jpg" alt="portfolio1" />
-          <div class="portfolio-layer">
-            <h4>Web Design</h4>
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum,
-              error.
-            </p>
-            <a href="#"><i class="bx bx-link-external"></i></a>
-          </div>
-        </div>
-        <div class="portfolio-box">
-          <img src="./images/portfolio3.jpg" alt="portfolio1" />
-          <div class="portfolio-layer">
-            <h4>Web Design</h4>
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum,
-              error.
-            </p>
-            <a href="#"><i class="bx bx-link-external"></i></a>
-          </div>
-        </div>
-        <div class="portfolio-box">
-          <img src="./images/portfolio4.jpg" alt="portfolio1" />
-          <div class="portfolio-layer">
-            <h4>Web Design</h4>
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum,
-              error.
-            </p>
-            <a href="#"><i class="bx bx-link-external"></i></a>
-          </div>
+      <div class="portfolio-box">
+        <img src="./images/portfolio4.jpg" alt="portfolio1" />
+        <div class="portfolio-layer">
+          <h4>Web Design</h4>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum,
+            error.
+          </p>
+          <a href="#"><i class="bx bx-link-external"></i></a>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- Contact Section -->
-    <section class="contact" id="contact">
-      <h2 class="heading">Contact <span>Me!</span></h2>
+  <!-- Contact Section -->
+  <section class="contact" id="contact">
+    <h2 class="heading">Contact <span>Me!</span></h2>
 
-      <form action="#">
-        <div class="input-box">
-          <input type="text" placeholder="Full Name" />
-          <input type="email" placeholder="Email" />
-        </div>
-        <div class="input-box">
-          <input type="number" placeholder="Mobile Number" />
-          <input type="text" placeholder="Email Subject" />
-        </div>
-        <textarea
-          name=""
-          id=""
-          cols="30"
-          rows="10"
-          placeholder="Your Message"
-        ></textarea>
-        <input type="submit" value="Send Message" class="btn" />
-      </form>
-    </section>
-
-    <!-- Footer Section -->
-    <footer class="footer">
-      <div class="footer-text">
-        <p>Copyright &copy; 2023 by Prince Raj | All Rights Reserved.</p>
+    <form action="#">
+      <div class="input-box">
+        <input type="text" placeholder="Full Name" />
+        <input type="email" placeholder="Email" />
       </div>
-
-      <div class="footer-iconTop">
-        <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
+      <div class="input-box">
+        <input type="number" placeholder="Mobile Number" />
+        <input type="text" placeholder="Email Subject" />
       </div>
-    </footer>
-  </body>
-  <script src="./js/script.js"></script>
-  <script>
-    var typed = new Typed('#myName', {
-      strings: ['&looparrowright; Prince Raj'],
-      typeSpeed: 50,
-    });
-  </script>
+      <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+      <input type="submit" value="Send Message" class="btn" />
+    </form>
+  </section>
+
+  <!-- Footer Section -->
+  <footer class="footer">
+    <div class="footer-text">
+      <p>Copyright &copy; 2023 by Prince Raj | All Rights Reserved.</p>
+    </div>
+
+    <div class="footer-iconTop">
+      <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
+    </div>
+  </footer>
+</body>
+<script src="./js/script.js"></script>
+<script>
+  var typed = new Typed('#myName', {
+    strings: ['&looparrowright; Prince Raj'],
+    typeSpeed: 50,
+  });
+</script>
+
 </html>

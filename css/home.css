@@ -163,6 +163,8 @@ span {
   background: var(--second-bg-color);
 }
 
+.about
+
 .about-img img {
   width: 35vw;
 }
@@ -183,8 +185,13 @@ span {
   font-size: 2.6rem;
 }
 
-.about-content p {
+.about-content>p {
   font-size: 1.6rem;
+  margin: 2rem 0 3rem;
+  margin: 2rem 0 3rem;
+}
+.about-content>details>p {
+  font-size: 1.3rem;
   margin: 2rem 0 3rem;
 }
 
