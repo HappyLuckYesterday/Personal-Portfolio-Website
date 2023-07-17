@@ -166,6 +166,9 @@ span {
 .about details {
   padding-bottom: 4rem;
 }
+.about details summary::-webkit-details-marker {
+  display: none;
+}
 
 .about-img img {
   width: 35vw;
@@ -428,7 +431,7 @@ span {
     background: var(--bg-color);
     border-top: 0.1rem solid rgba(0, 0, 0, 0.2);
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
-    display: none;
+    visibility: hidden;
   }
   .navbar a {
     display: block;
@@ -508,9 +511,4 @@ span {
     text-align: center;
     margin-top: 2rem;
   }
-}
-
-/* Utility Classes */
-.show-menu {
-  display: block;
 }

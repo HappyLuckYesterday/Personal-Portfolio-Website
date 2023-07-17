@@ -25,21 +25,21 @@ window.onscroll = () => {
 
   menuIcon.onclick = function () {
     menuIcon.classList.toggle("bx-x");
-    navbar.classList.toggle("active");
+    navbar.style.visibility = "visible";
   };
-
+  
   // remove navbar when a nav link is clicked
   menuIcon.classList.remove("bx-x");
-  navbar.classList.remove("show-menu");
+  navbar.style.visibility = "hidden";
 };
 
 
 // scroll reveal 
 ScrollReveal({
-    reset: true,
-    distance: '80px',
-    duration: 2000,
-    delay: 200
+  reset: true,
+  distance: '80px',
+  duration: 2000,
+  delay: 200
 });
 
 ScrollReveal().reveal('.home-img, .heading', { origin: 'top' });
