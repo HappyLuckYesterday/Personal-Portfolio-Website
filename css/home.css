@@ -163,7 +163,9 @@ span {
   background: var(--second-bg-color);
 }
 
-.about
+.about details {
+  padding-bottom: 4rem;
+}
 
 .about-img img {
   width: 35vw;
