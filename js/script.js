@@ -26,11 +26,13 @@ window.onscroll = () => {
   menuIcon.onclick = function () {
     menuIcon.classList.toggle("bx-x");
     navbar.style.visibility = "visible";
+
+    window.onscroll = () => {
+      // remove navbar when a nav link is clicked
+      menuIcon.classList.remove("bx-x");
+      navbar.style.visibility = "hidden";
+    }
   };
-  
-  // remove navbar when a nav link is clicked
-  menuIcon.classList.remove("bx-x");
-  navbar.style.visibility = "hidden";
 };
 
 
